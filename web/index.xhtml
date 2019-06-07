@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Jogo da Memoria - Times Brasileirao 2019</title>
+        <h:outputStylesheet library="css" name="index.css"/>
+    </h:head>
+    <h:body>
+        <h3>Jogo da Memoria - Times Brasileirao 2019</h3>
+        
+        <h:outputText value="Contador de jogadas: "/>
+                    
+        <h:outputText value="#{figuraHandler.contjogada}"/>
+                        
+                    
+        <h:form id="f">
+
+
+            <h:commandButton value="Novo Jogo" action="#{figuraHandler.novoJogo()}"/>
+
+            <h:panelGrid columns="8">
+
+
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[0]}" action="#{figuraHandler.imageClick(0)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[1]}" action="#{figuraHandler.imageClick(1)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[2]}" action="#{figuraHandler.imageClick(2)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[3]}" action="#{figuraHandler.imageClick(3)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[4]}" action="#{figuraHandler.imageClick(4)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[5]}" action="#{figuraHandler.imageClick(5)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[6]}" action="#{figuraHandler.imageClick(6)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[7]}" action="#{figuraHandler.imageClick(7)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[8]}" action="#{figuraHandler.imageClick(8)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[9]}" action="#{figuraHandler.imageClick(9)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[10]}" action="#{figuraHandler.imageClick(10)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[11]}" action="#{figuraHandler.imageClick(11)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[12]}" action="#{figuraHandler.imageClick(12)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[13]}" action="#{figuraHandler.imageClick(13)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[14]}" action="#{figuraHandler.imageClick(14)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[15]}" action="#{figuraHandler.imageClick(15)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[16]}" action="#{figuraHandler.imageClick(16)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[17]}" action="#{figuraHandler.imageClick(17)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[18]}" action="#{figuraHandler.imageClick(18)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[19]}" action="#{figuraHandler.imageClick(19)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[20]}" action="#{figuraHandler.imageClick(20)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[21]}" action="#{figuraHandler.imageClick(21)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[22]}" action="#{figuraHandler.imageClick(22)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[23]}" action="#{figuraHandler.imageClick(23)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[24]}" action="#{figuraHandler.imageClick(24)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[25]}" action="#{figuraHandler.imageClick(25)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[26]}" action="#{figuraHandler.imageClick(26)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[27]}" action="#{figuraHandler.imageClick(27)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[28]}" action="#{figuraHandler.imageClick(28)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[29]}" action="#{figuraHandler.imageClick(29)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[30]}" action="#{figuraHandler.imageClick(30)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[31]}" action="#{figuraHandler.imageClick(31)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[32]}" action="#{figuraHandler.imageClick(32)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[33]}" action="#{figuraHandler.imageClick(33)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[34]}" action="#{figuraHandler.imageClick(34)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[35]}" action="#{figuraHandler.imageClick(35)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[36]}" action="#{figuraHandler.imageClick(36)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[37]}" action="#{figuraHandler.imageClick(37)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[38]}" action="#{figuraHandler.imageClick(38)}"/>
+                <h:commandButton  image="#{figuraHandler.figura.urlLista[39]}" action="#{figuraHandler.imageClick(39)}"/>
+
+
+            </h:panelGrid>
+
+        </h:form>
+
+
+
+    </h:body>
+</html>
